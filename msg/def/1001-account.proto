@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package msg;
+
+option go_package = ".;gen";
+
+message LoginReq {
+    string userId = 1;
+}
+
+message LoginRsp {
+
+}
